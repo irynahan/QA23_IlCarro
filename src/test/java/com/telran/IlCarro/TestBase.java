@@ -1,9 +1,6 @@
 package com.telran.IlCarro;
 
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.AfterMethod;
@@ -62,7 +59,7 @@ public class TestBase {
     }
 
     public void acceptTermsOfUse(){
-        driver.findElement(By.cssSelector("#terms-of-use"));
+        driver.findElement(By.xpath("//label[@for='terms-of-use']"));
     }
 
     public void clickWithActions(By locator) {
@@ -70,6 +67,10 @@ public class TestBase {
         WebElement element = driver.findElement(locator);
         actions.moveToElement(element).build().perform();
         element.click();
+    }
+
+    public void jumpToFutter(By  locator) {
+        driver.findElement(locator).sendKeys(Keys.CONTROL, Keys.END);
     }
 
     public void clickRegistrationButton() {

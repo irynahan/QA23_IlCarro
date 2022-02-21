@@ -22,7 +22,11 @@ public class UserHelper extends HelperBase {
     }
 
     public void clickRegistrationButton() {
-        click(By.xpath("//button[text()='Y’alla!']"));
+        // click(By.xpath("//button[text()='Y’alla!']"));
+        click(By.xpath("/html[1]/body[1]/app-root[1]/app-navigator[1]/app-login-registration[1]/div[1]/div[1]/div[1]/app-registration[1]/form[1]/button[1]"));
+    }
+    public void clickRegistrationButtonWithAction() {
+        clickWithActions(By.xpath("//button[text()='Y’alla!']"));
     }
 
     public void fillInRegistrationForm(User user) {

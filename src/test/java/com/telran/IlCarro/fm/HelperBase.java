@@ -50,4 +50,13 @@ public class HelperBase {
     public void jumpToFutter(By  locator) {
         driver.findElement(locator).sendKeys(Keys.CONTROL, Keys.END);
     }
+
+    public static void pause(int seconds){
+        try{
+            Thread.sleep(seconds*1000);
+        } catch (InterruptedException ex){
+
+        }
+    }
+
 }

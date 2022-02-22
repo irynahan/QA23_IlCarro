@@ -4,10 +4,12 @@ import com.telran.IlCarro.fm.ApplicationManager;
 import org.openqa.selenium.remote.BrowserType;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.testng.ITestResult;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
 import java.lang.reflect.Method;
+import java.util.Arrays;
 
 public class TestBase {
 
@@ -21,8 +23,8 @@ public class TestBase {
     }
 
     @BeforeMethod
-    public void startTest(Method m){
-        logger.info("Start test " + m.getName());
+    public void startTest(Method m, Object[] p){
+        logger.info("Start test " + m.getName() + "with data: " + Arrays.asList(p));
     }
 
     @AfterMethod(enabled = false)
@@ -31,9 +33,13 @@ public class TestBase {
     }
 
     @AfterMethod
-    public void stopTest(Method m){
-        logger.info("Stop test " + m.getName());
-        logger.info("________________________");
+    public void stopTest(ITestResult result){
+        if (result.isSuccess()) {
+            logger.info("PASSED: test method  " + result.getMethod().getMethodName());
+        } else {
+            logger.error("FAILED: Test method " + result.getMethod().getMethodName() + "Screenshot: ");
+        }
+        logger.info("************************************************************************************");
     }
 
 }

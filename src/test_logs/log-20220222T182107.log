@@ -1,0 +1,9 @@
+18:21:11 INFO  com.telran.IlCarro.tests.TestBase - Start test createNewAccountPositiveFromDataProviderWithCSVTestwith data: [com.telran.IlCarro.model.User@70eecdc2]
+18:21:20 INFO  com.telran.IlCarro.tests.TestBase - PASSED: test method  createNewAccountPositiveFromDataProviderWithCSVTest
+18:21:20 INFO  com.telran.IlCarro.tests.TestBase - ************************************************************************************
+18:21:22 INFO  com.telran.IlCarro.tests.TestBase - Start test createNewAccountPositiveFromDataProviderWithCSVTestwith data: [com.telran.IlCarro.model.User@40226788]
+18:21:31 INFO  com.telran.IlCarro.tests.TestBase - PASSED: test method  createNewAccountPositiveFromDataProviderWithCSVTest
+18:21:31 INFO  com.telran.IlCarro.tests.TestBase - ************************************************************************************
+18:21:33 INFO  com.telran.IlCarro.tests.TestBase - Start test createNewAccountPositiveFromDataProviderWithCSVTestwith data: [com.telran.IlCarro.model.User@3c017078]
+18:21:41 INFO  com.telran.IlCarro.tests.TestBase - PASSED: test method  createNewAccountPositiveFromDataProviderWithCSVTest
+18:21:41 INFO  com.telran.IlCarro.tests.TestBase - ************************************************************************************

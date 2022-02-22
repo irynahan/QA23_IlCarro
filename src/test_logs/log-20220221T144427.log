@@ -1,0 +1,3 @@
+14:44:30 INFO  com.telran.IlCarro.tests.TestBase - Start test createNewAccountPositiveTestwith data: []
+14:44:36 ERROR com.telran.IlCarro.tests.TestBase - FAILED: Test method createNewAccountPositiveTestScreenshot: 
+14:44:36 INFO  com.telran.IlCarro.tests.TestBase - ************************************************************************************

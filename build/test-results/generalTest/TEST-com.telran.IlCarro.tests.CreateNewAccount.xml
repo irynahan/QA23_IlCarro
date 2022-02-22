@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.telran.IlCarro.tests.CreateNewAccount" tests="4" skipped="0" failures="0" errors="0" timestamp="2022-02-22T19:18:15" hostname="X230" time="50.22">
+  <properties/>
+  <testcase name="createNewAccountPositiveFromDataProviderWithCSVTest[0](com.telran.IlCarro.model.User@3b35bd7b)" classname="com.telran.IlCarro.tests.CreateNewAccount" time="17.249"/>
+  <testcase name="createNewAccountPositiveFromDataProviderWithCSVTest[1](com.telran.IlCarro.model.User@7ea27187)" classname="com.telran.IlCarro.tests.CreateNewAccount" time="8.712"/>
+  <testcase name="createNewAccountPositiveFromDataProviderWithCSVTest[2](com.telran.IlCarro.model.User@4194b)" classname="com.telran.IlCarro.tests.CreateNewAccount" time="8.622"/>
+  <testcase name="createNewAccountPositiveTest" classname="com.telran.IlCarro.tests.CreateNewAccount" time="8.669"/>
+  <system-out><![CDATA[20:18:15 INFO  com.telran.IlCarro.tests.TestBase - Start test createNewAccountPositiveFromDataProviderWithCSVTestwith data: [com.telran.IlCarro.model.User@3b35bd7b]
+58 9
+20:18:33 INFO  com.telran.IlCarro.tests.TestBase - PASSED: test method  createNewAccountPositiveFromDataProviderWithCSVTest
+20:18:33 INFO  com.telran.IlCarro.tests.TestBase - ************************************************************************************
+20:18:35 INFO  com.telran.IlCarro.tests.TestBase - Start test createNewAccountPositiveFromDataProviderWithCSVTestwith data: [com.telran.IlCarro.model.User@7ea27187]
+58 9
+20:18:44 INFO  com.telran.IlCarro.tests.TestBase - PASSED: test method  createNewAccountPositiveFromDataProviderWithCSVTest
+20:18:44 INFO  com.telran.IlCarro.tests.TestBase - ************************************************************************************
+20:18:46 INFO  com.telran.IlCarro.tests.TestBase - Start test createNewAccountPositiveFromDataProviderWithCSVTestwith data: [com.telran.IlCarro.model.User@4194b]
+58 9
+20:18:55 INFO  com.telran.IlCarro.tests.TestBase - PASSED: test method  createNewAccountPositiveFromDataProviderWithCSVTest
+20:18:55 INFO  com.telran.IlCarro.tests.TestBase - ************************************************************************************
+20:18:57 INFO  com.telran.IlCarro.tests.TestBase - Start test createNewAccountPositiveTestwith data: []
+58 9
+20:19:06 INFO  com.telran.IlCarro.tests.TestBase - PASSED: test method  createNewAccountPositiveTest
+20:19:06 INFO  com.telran.IlCarro.tests.TestBase - ************************************************************************************
+]]></system-out>
+  <system-err><![CDATA[Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 3701
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1645557494.617][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
+Feb 22, 2022 8:18:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 8183
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1645557514.554][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
+Feb 22, 2022 8:18:34 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 11014
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1645557525.468][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
+Feb 22, 2022 8:18:45 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Starting ChromeDriver 97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}) on port 29337
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+[1645557536.403][WARNING]: This version of ChromeDriver has not been tested with Chrome version 98.
+Feb 22, 2022 8:18:56 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+</testsuite>

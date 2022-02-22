@@ -17,7 +17,7 @@ public class CreateNewAccount extends TestBase {
 
     @Test
     public void createNewAccountPositiveTest() {
-        addUser("Oliver8", "King9", "o9.king@mail.ru", "Ww123456&");
+        addUser("Oliver11", "King11", "o11.king@mail.ru", "Ww123456&");
         HelperBase.pause(5);
         Assert.assertTrue(app.getHeader().isDeleteTabPresent());
     }
